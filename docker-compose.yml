@@ -5,12 +5,11 @@ networks:
         driver: bridge
 
 services:
-    php:
+    app:
         build: 
             context: ./
             dockerfile: php.dockerfile
-        image: laravel8-php-fpm-80
-        container_name: php
+        container_name: app
         restart: unless-stopped
         tty: true
         working_dir: /var/www
@@ -20,7 +19,7 @@ services:
             - app-network
   
     mysql:
-        image: mysql:latest
+        image: mysql:8.0
         container_name: mysql
         restart: unless-stopped
         tty: true
