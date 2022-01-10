@@ -1,5 +1,5 @@
 # php-nginx-mysql-docker-starter
-Starter template for running PHP, NGINX and MYSQL using docker-compose.
+Docker running PHP, NGINX and MYSQL.
 
 ## Setup
 * Clone this repository
