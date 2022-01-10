@@ -9,6 +9,3 @@ Starter template for running PHP, NGINX and MYSQL using docker-compose.
 `docker-compose exec -T app <command>`
 for eg. `docker-compose exec -T app php -v`
 clone this repository
-
-`docker-compose up -d --build`
-
