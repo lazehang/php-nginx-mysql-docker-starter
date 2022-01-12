@@ -3,6 +3,7 @@ Docker running PHP, NGINX and MYSQL.
 
 ## Setup
 * Clone this repository
+* Copy `.env.example` file and rename to `.env`.
 * `docker-compose up -d`
 * Go to `localhost:8200`
 * Run command inside container with 
