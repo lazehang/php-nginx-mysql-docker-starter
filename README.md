@@ -6,6 +6,6 @@ Docker running PHP, NGINX and MYSQL.
 * `docker-compose up -d`
 * Go to `localhost:8200`
 * Run command inside container with 
-`docker-compose exec -T app <command>`
-for eg. `docker-compose exec -T app php -v`
+`docker-compose exec app <command>`
+for eg. `docker-compose exec app php -v`
 clone this repository
